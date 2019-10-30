@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Speech Recognition</title>
+    <style>
+        *{
+            margin : 0;
+            padding : 0;
+            box-sizing : border-box;
+        }
+        body{
+            background-color: #ffc600;
+            font-family:  Helvetica, sans-serif;
+            font-weight: 200;
+            font-size: 20px;
+        }
+        .words{
+            max-width: 500px;
+            height: auto;
+            padding: 20px;
+            margin : 50px auto;
+            background : white;
+            border-radius: 8px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, .4);
+        }
+        h2{
+            color: rgba(0, 0 , 0, .5);
+            text-align: center;
+            padding-top : 20px;
+            text-shadow: 1px 1px 3px slategrey;
+        }
+    </style>
+</head>
+<body>
+    <h2 >SPEECH RECOGNITON</h2>
+    <div class="words" contenteditable></div>
+</body>
+<script src="./script.js"></script>
+</html>
