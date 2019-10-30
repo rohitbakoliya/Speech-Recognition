@@ -2,4 +2,4 @@
 Speech recognition made with Vanilla JavaScript
 
 <br> <br> 
-It might not be work in firefox.
+<strong>It might not be work in firefox.<strong>
